@@ -1,0 +1,25 @@
+{
+    "name": "lukaswhite/legalpages",
+    "description": "",
+    "authors": [
+        {
+            "name": "Lukas White",
+            "email": "hello@lukaswhite.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "dflydev/markdown": "1.0.*@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/vendor/rain.tpl.class.php"
+        ],
+        "psr-0": {
+            "Lukaswhite\\Legalpages\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
